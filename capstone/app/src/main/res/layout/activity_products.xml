@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="25dp"
+    android:elevation="6dp"
+    app:cardUseCompatPadding="true">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar"
+        android:padding="15dp"
+        >
+
+        <TextView
+            android:id="@+id/Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Name"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/nametxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Name"
+            android:textColor="#000"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="120dp"/>
+
+
+        <TextView
+            android:id="@+id/Description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Name"
+            android:layout_marginTop="13dp"
+            android:text="@string/Description"
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/descriptiontxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nametxt"
+            android:layout_marginTop="5dp"
+            android:text="@string/Description"
+            android:textColor="#000"
+            android:textSize="25sp"
+            android:layout_marginLeft="120dp"/>
+
+
+        <TextView
+            android:id="@+id/Price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Description"
+            android:layout_marginTop="13dp"
+            android:text="@string/Price"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/pricetxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/descriptiontxt"
+            android:layout_marginTop="6dp"
+            android:text="@string/Price"
+            android:textColor="#000"
+            android:textSize="25sp"
+            android:layout_marginLeft="120dp"/>
+
+
+        <TextView
+            android:id="@+id/Stocks"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Price"
+            android:layout_marginTop="9dp"
+            android:text="@string/Stocks"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/stockstxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pricetxt"
+            android:layout_marginTop="-1dp"
+            android:text="@string/Stocks"
+            android:textColor="#000"
+            android:textSize="25sp"
+            android:layout_marginLeft="120dp"/>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/stockstxt"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="173dp"
+                android:layout_height="wrap_content"
+                android:text="Edit"
+                android:layout_marginRight="5dp"
+                android:id="@+id/btnEdit"/>
+
+            <Button
+                android:layout_width="173dp"
+                android:layout_height="wrap_content"
+                android:text="Delete"
+                android:layout_marginLeft="5dp"
+                android:id="@+id/btnDelete"/>
+
+
+
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
+
+
+

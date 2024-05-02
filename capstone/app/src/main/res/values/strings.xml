@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">sari-sari List</string>
+    <string name="button1">Products</string>
+    <string name="button2">Load</string>
+    <string name="button3">Debtor\n(utang)</string>
+    <string name="button4">other</string>
+    <string name="Name">Name</string>
+    <string name="Description">Description</string>
+    <string name="Price">Price</string>
+    <string name="Stocks">Stocks</string>
+    <string name="Nametxt">Name:</string>
+    <string name="search">Sari-Sari List</string>
+</resources>
